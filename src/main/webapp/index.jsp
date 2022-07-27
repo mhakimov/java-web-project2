@@ -7,6 +7,7 @@
 
       h2 {
         color: green;
+        font-style: italic;
       }
     </style>
   </head>
