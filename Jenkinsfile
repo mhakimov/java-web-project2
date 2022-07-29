@@ -22,7 +22,7 @@ pipeline {
     stage("test") {
       steps {
         echo 'testing the app...'
-        sh 'mvn package' 
+        sh 'mvn clean package' 
 
       }
     }
