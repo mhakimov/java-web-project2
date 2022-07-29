@@ -2,7 +2,9 @@
   <head>
     <style>
       body {
-        color: blue;
+        color: brown;
+        background-color: lightblue;
+
       }
 
       h2 {
