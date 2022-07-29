@@ -30,7 +30,9 @@ pipeline {
     stage("deploy") {
       steps {
         echo 'deploying the app...'
-        
+           script {
+          deploy adapters: [tomcat9(credentialsId: 'tomcat_credential', path: '', url: 'http://host.docker.internal:8081')], contextPath: '/pipeline', onFailure: false, war: 'target/*.war' 
+        }
       }
     }
     
