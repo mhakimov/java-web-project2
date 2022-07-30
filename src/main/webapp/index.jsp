@@ -16,7 +16,7 @@
   </head>
 <body>
 
-testing java method here: <%= Utilz.transformToLower("HIII") %>
+testing java method here: <%= transformToLower("HIII") %>
 
 
   <h1>CI/CD<h1>
