@@ -1,4 +1,4 @@
-<%@ page import="com.customer.*" %>
+<%@ page import="com.customer.FeatureAUtils" %>
 
 <html>
   <head>
@@ -14,10 +14,10 @@
   </head>
 <body>
 
-testing java method here: <%= Utilz.transformToLower("HIII") %>
+testing java method here: <%= FeatureAUtils.transformToLower("HIII") %>
 
-  <h1>CI/CD<h1>
+  <h1>CI/CD</h1>
 <h2>Hello World!</h2>
-<h3> "Continuous integration doesn't get rid of bugs, but it does make them dramatically easier to find and remove."<h3>
+<h3> "Continuous integration doesn't get rid of bugs, but it does make them dramatically easier to find and remove."</h3>
 </body>
 </html>
