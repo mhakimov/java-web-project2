@@ -15,9 +15,7 @@
 <body>
 
 testing java method here: <%= com.customer.FeatureAUtils.transformToLower("HIIIIiiTt") %>
-    <%
-    System.out.println("ggg");
-    %>
+
 
   <h1>CI/CD<h1>
 <h2>Hello World!</h2>
