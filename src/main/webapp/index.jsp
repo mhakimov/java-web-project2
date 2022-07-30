@@ -26,7 +26,7 @@
     <%
         String test = "<b><u>bold and underlined</u></b>";
         pageContext.setAttribute("test", test);
-        boolean doodad = true;
+        boolean doodad = false;
      %>
 
     <c:set var="test1" value="<u>underlined</u>" />
