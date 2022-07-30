@@ -1,7 +1,6 @@
 <%@ page import="com.customer.*" %>
 <%@ page import="main.webapp.*" %>
 
-<%= Utilz.transformToLower("HIII") %>
 
 <html>
   <head>
@@ -17,7 +16,7 @@
   </head>
 <body>
 
-testing java method here: 
+testing java method here: <%= Utilz.transformToLower("HIII") %>
 
 
   <h1>CI/CD<h1>
