@@ -16,7 +16,7 @@
   </head>
 <body>
 
-testing java method here: <% "HII".toLowerCase() %>
+testing java method here: <% "HII".toLowerCase(); %>
 
 
   <h1>CI/CD<h1>
