@@ -1,4 +1,4 @@
-
+<%@ page import="com.customer.*" %>
 
 <html>
   <head>
@@ -14,7 +14,7 @@
   </head>
 <body>
 
-testing java method here: <%= com.customer.FeatureAUtils.transformToLower("HIIIIiiTt") %>
+testing java method here: <%= FeatureAUtils.transformToLower("HIIIIiiTt") %>
     <%
     System.out.println("ggg");
     %>
