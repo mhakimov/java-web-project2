@@ -14,10 +14,7 @@
   </head>
 <body>
 
-testing java method here: <%= FeatureAUtils.transformToLower("HIIIIiiTt") %>
-    <%
-    System.out.println("ggg");
-    %>
+testing java method here: <%= Utilz.transformToLower("HIII") %>
 
   <h1>CI/CD<h1>
 <h2>Hello World!</h2>
