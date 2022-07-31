@@ -17,7 +17,7 @@ pipeline {
                     echo "M2_HOME = ${M2_HOME}"
                     echo "JAVA_HOME = ${JAVA_HOME}"
                 '''
-             sh 'mvn clean package'
+             sh 'mvn clean package -DskipTests'
       }
     }
     
