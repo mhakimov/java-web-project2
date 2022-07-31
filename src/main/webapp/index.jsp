@@ -1,5 +1,4 @@
 <%@ page import="com.customer.*" %>
-<%@ page import="main.webapp.*" %>
 
 
 <html>
