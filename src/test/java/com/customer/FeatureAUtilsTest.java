@@ -9,8 +9,8 @@ class FeatureAUtilsTest {
 
     @Test
     void verifyTransformToLower() {
-        String text = FeatureAUtils.transformToLower("TEXT3");
-        Assert.assertEquals("text", text);
+        String text = FeatureAUtils.transformToLower("TEXT2");
+        Assert.assertEquals("text2", text);
     }
 
     @Test
@@ -21,7 +21,7 @@ class FeatureAUtilsTest {
 
     @Test
     void verifyTransformToLowerSpecialChars() {
-        String text = FeatureAUtils.transformToLower("1234321");
-        Assert.assertEquals("1234321", text);
+        String text = FeatureAUtils.transformToLower("!@#$%^&*()Tt");
+        Assert.assertEquals("!@#$%^&*()tt", text);
     }
 }
