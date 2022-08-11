@@ -9,7 +9,7 @@ class FeatureAUtilsTest {
 
     @Test
     void verifyTransformToLower() {
-        String text = FeatureAUtils.transformToLower("TEXT");
+        String text = FeatureAUtils.transformToLower("TEXT3");
         Assert.assertEquals("text", text);
     }
 

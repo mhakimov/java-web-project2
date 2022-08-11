@@ -15,7 +15,7 @@
   </head>
 <body>
 
-testing java method here: <%= FeatureAUtils.transformToLower("HIII") %>
+<p>testing java method here: <%= FeatureAUtils.transformToLower("HELLO WORLD!") %> </p>
 
 
   <h1>CI/CD</h1>
